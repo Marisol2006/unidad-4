@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuarios - Tienda</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+   
+    <style>
+
+        body {
+            margin: 20px;
+            font-family: Verdana, sans-serif;
+        }
+
+        textarea {
+            width: 200px;
+        }
+
+      
+        input[name="email"] {
+            background-color: #eeeeee;
+        }
+
+        p, label {
+            font-family: Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formulario de Registro - Tienda</h1>
+    <p>Por favor, completa los campos para registrarte en el sistema de la tienda.</p>
+
+    <form action="#" method="post">
+        <div>
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <br>
+        <div>
+            <label for="email">Correo electrónico:</label><br>
+         
+            <input type="email" id="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for="comentarios">Dirección / Comentarios:</label><br>
+        
+            <textarea id="comentarios" name="comentarios"></textarea>
+        </div>
+        <br>
+        <button type="submit">Guardar Registro</button>
+    </form>
+
+</body>
+</html>
